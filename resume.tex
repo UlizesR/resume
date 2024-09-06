@@ -1,0 +1,164 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Uli Raudales} \\ \vspace{1pt}
+    \small 832-875-4133 $|$ raudalef@whitman.edu $|$ 
+    \href{https://linkedin.com/in/uli-raudales-3120b629a/}{\underline{linkedin.com/in/uli-raudales}} $|$
+    \href{https://github.com/UlizesR}{\underline{github.com/UlizesR}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Whitman College}{Walla Walla, WA}
+      {Bachelor of Arts in Computer Science, Mathematics, \& Physics}{Aug. 2021 -- Dec. 2025}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Objective-C, Mathematica, Julia, Lua, TypeScript} \\
+     \textbf{Frameworks}{: React, Node.js, Apple Metal, OpenGL} \\
+     \textbf{Tools}{: Git, Jupyter, Perf, Apple Instruments} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Eigen, SciPy, Google Benchmark} \\
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Undergraduate Research Assistant}{June 2024 -- Present}
+      {Whitman College}{Walla Walla, WA}
+      \resumeItemListStart
+        \resumeItem{\textbf{Closed Diagrams in Information Field Theory for Bayesian Inference}}\hspace{0.85 in} {May 2024 -- Present}
+        \resumeItemListStart
+            \resumeItem{Conducted research to enhance Bayesian inference using "closed diagrams" in Information Field Theory (IFT) for more accurate partition function calculations.}
+            \resumeItem{Developed Python code for non-Gaussian distributions and linear regression models, with a focus on complex data sets and high-dimensional parameter spaces.}
+            \resumeItem{Contributing to the development of an open-source Python package implementing these methods.}
+        \resumeItemListEnd
+        \resumeItem{\textbf{Numerical Methods for Solving Delay Differential Equations in C++} \hspace{0.55 in} {June 2024 -- Aug. 2024}}
+        \resumeItemListStart
+            \resumeItem{Improved upon the design and implementation of a C++ library for solving delay differential equations (DDEs)}
+            \resumeItem{Worked on implementing data structures and algorithms for efficient storage and retrieval of past states in DDEs}
+            \resumeItem{Optimized performance using profiling tools (Perf) and benchmarked against top libraries in C/C++, Fortran, and Julia.}
+        \resumeItemListEnd
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Teaching Assistant / Computer Lab Aide}{Sept. 2023 -- Present}
+    {Whitman College}{Walla Walla, WA}
+    \resumeItemListStart
+        \resumeItem{TA for Computer Systems Fundamentals and Computational Methods in Physics}
+        \resumeItem{Assist students with course material, lab assignments, and projects, providing 1-on-1 support during office hours}
+        \resumeItem{Helped grade exams and assignments, ensuring consistent feedback}
+        \resumeItem{Maintained the computer lab and addressed technical issues with systems and software}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Information Technology Intern}{May 2022 -- Aug. 2022}
+    {Baker Boyer National Bank}{Walla Walla, WA}
+    \resumeItemListStart
+      \resumeItem{Developed automation scripts to streamline software deployment processes using bat scripting}
+      \resumeItem{Assisted in maintaining network infrastructure and providing technical support to staff, enhancing operational efficiency}
+      \resumeItem{Managed inventory data and contributed to infrastructure documentation and auditing processes}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{MetalLib} $|$ \emph{C, Objective-C, Apple Metal}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a lightweight 3D graphics library in C, wrapping the Apple Metal API for performance-oriented applications}
+            \resumeItem{Built a custom windowing system using Apple Cocoa and Foundation frameworks, ensuring cross-platform functionality}
+            \resumeItem{Optimized the library using Apple Instruments, leading to a 20\% increase in rendering performance}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Quantum Algorithms} $|$ \emph{Python, Q\#}}{}
+          \resumeItemListStart
+            \resumeItem{Implemented quantum algorithms for Shor's, Grover's, and Simon's problems using Q\#}
+            \resumeItem{Implemented quantum circuits for quantum Fourier transform, phase estimation, and amplitude amplification in Python Qiskit}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\end{document}
+
