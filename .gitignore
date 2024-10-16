@@ -1,0 +1,12 @@
+.DS_Store
+
+# ignore latex build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.synctex.gz
+*.toc
+*.fdb_latexmk
