@@ -99,38 +99,40 @@
     }}
  \end{itemize}
 
-
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2024 -- Present}
-      {Whitman College}{Walla Walla, WA}
-      \resumeItemListStart
-        \resumeItem{\textbf{Closed Diagrams in Information Field Theory for Bayesian Inference}}\hspace{0.85 in} {May 2024 -- Present}
-        \resumeItemListStart
-            \resumeItem{Conducting research to enhance Bayesian inference using "closed diagrams" in Information Field Theory (IFT) for more accurate partition function calculations.}
-            \resumeItem{Developed Python code for non-Gaussian distributions and linear regression models, with a focus on complex data sets and high-dimensional parameter spaces.}
-            \resumeItem{Contributing to the development of an open-source Python package implementing these methods.}
-        \resumeItemListEnd
-        \resumeItem{\textbf{Numerical Methods for Solving Delay Differential Equations in C++} \hspace{0.55 in} {June 2024 -- Aug. 2024}}
-        \resumeItemListStart
-            \resumeItem{Improved upon the design and implementation of a C++ library for solving delay differential equations (DDEs)}
-            \resumeItem{Worked on implementing data structures and algorithms for efficient storage and retrieval of past states in DDEs}
-            \resumeItem{Optimized performance using profiling tools (Perf) and benchmarked against top libraries in C/C++, Fortran, and Julia.}
-        \resumeItemListEnd
-
-      \resumeItemListEnd
-
-    \resumeSubheading
-    {Teaching Assistant / Computer Lab Aide}{Sept. 2023 -- Present}
+    {Undergraduate Research Assistant}{June 2024 -- Present}
     {Whitman College}{Walla Walla, WA}
     \resumeItemListStart
-        \resumeItem{TA for the Computer Science and Physics Departments}
-        \resumeItem{Assist students with course material, lab assignments, and projects, providing 1-on-1 support during office hours}
-        \resumeItem{Helped grade exams and assignments, ensuring consistent feedback}
-        \resumeItem{Maintained the computer lab and addressed technical issues with systems and software}
+      \resumeItem{\textbf{Closed Diagrams in Information Field Theory for Bayesian Inference}}\hfill {May 2024 -- Present}
+      \resumeItemListStart
+          \resumeItem{Leading research on “closed diagrams” in IFT to refine Bayesian inference via improved partition function calculations}
+          \resumeItem{Developed high-performance Python code for non-Gaussian distributions, linear regression models, and Random Parameterized Fields}
+      \resumeItemListEnd
+      \resumeItem{\textbf{Numerical Methods for Solving Delay Differential Equations in C++} \hfill {June 2024 -- Aug. 2024}}
+      \resumeItemListStart
+          \resumeItem{Enhanced a C++ library for solving delay differential equations by optimizing data structures and algorithms for efficient past-state retrieval}
+          \resumeItem{Used profiling tools (Perf) to optimize performance and benchmark results against leading libraries in various languages}
+      \resumeItemListEnd
+      \resumeItem{\textbf{Salmon Migration: Interactive Fluid Simulations} \hfill {September 2023 -- May 2024}}
+      \resumeItemListStart
+        \resumeItem{Developed an interactive web application to teach children about salmon migration patterns across the Columbia River}
+        \resumeItem{Led the math and physics components of the simulation to ensure accuracy and educational value}
+        \resumeItem{Built a TypeScript-based Lattice Boltzmann fluid simulation with interactive obstacles and a controllable salmon model}
     \resumeItemListEnd
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    % {Teaching Assistant / Computer Lab Aide}{Sept. 2023 -- Present}
+    % {Whitman College}{}
+    % \resumeItemListStart
+    %     \resumeItem{TA for the Computer Science and Physics Departments}
+    %     \resumeItem{Assist students with course material, lab assignments, and projects, providing 1-on-1 support during office hours}
+    %     \resumeItem{Helped grade exams and assignments, ensuring consistent feedback}
+    %     \resumeItem{Maintained the computer lab and addressed technical issues with systems and software}
+    % \resumeItemListEnd
 
     \resumeSubheading
     {Information Technology Intern}{May 2022 -- Aug. 2022}
@@ -146,18 +148,23 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{MetalLib} $|$ \emph{C, Objective-C, Apple Metal}}{}
+          {\textbf{\href{https://github.com/UlizesR/CPlotLib.git}{\underline{CPlotLib}}} $|$ \emph{C, OpenGL}}{}
           \resumeItemListStart
-            \resumeItem{Developed a lightweight 3D graphics library in C, wrapping the Apple Metal API for performance-oriented applications}
-            \resumeItem{Built a custom windowing system using Apple Cocoa and Foundation frameworks, ensuring cross-platform functionality}
-            \resumeItem{Optimized the library using Apple Instruments, leading to a 20\% increase in rendering performance}
+            \resumeItem{Developed a simple 2D plotting library in C with C++ bindings for visualizing mathematical functions using OpenGL}
+            \resumeItem{Implemented a custom shader pipeline for rendering lines and curves with anti-aliasing}
           \resumeItemListEnd
-        \resumeProjectHeading
-            {\textbf{Hopf Fibration Visualization} $|$ \emph{TypeScript, Three.js, Vite}}{}
-            \resumeItemListStart
-                \resumeItem{Implemented a web-based visualization of the Hopf fibration, a 4D geometric structure, using Three.js}
-                \resumeItem{Developed custom shaders and lighting effects to represent the fibration in 3D space}
-            \resumeItemListEnd
+      \resumeProjectHeading
+      {\textbf{\href{https://github.com/UlizesR/Mach_1_Project}{\underline{Epoch123}}} $|$ \emph{Python, PySide6, PyQt, Pygame, SQLite}}{}
+      \resumeItemListStart
+        \resumeItem{Built a desktop app for organizing and editing audio files with Pygame-based playback and a PySide6 GUI}
+        \resumeItem{Designed a SQLite schema for audio metadata and file paths, enabling quick and efficient data retrieval}
+      \resumeItemListEnd
+      \resumeProjectHeading
+      {\textbf{\href{https://github.com/UlizesR/MetalLib}{\underline{MetalLib}}} $|$ \emph{C, Objective-C, Apple Metal}}{}
+      \resumeItemListStart
+        \resumeItem{Developed a graphics library in C that wraps Apple Metal for creating 3D scenes on macOS with a custom windowing system}
+        \resumeItem{Implemented a Camera, 3D objects and lighting, and a custom shader pipeline for rendering 3D scenes}
+      \resumeItemListEnd
     \resumeSubHeadingListEnd
 \end{document}
 
